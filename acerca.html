@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo - Portal Filosófico</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .equipo-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            font-size: 1.4rem;
+            margin: 0.5rem 0;
+        }
+
+        .rol {
+            font-weight: bold;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Roles de la obra</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="detalle.html">Detalle de la Obra</a></li>
+                <li><a href="contexto.html">Contexto Histórico</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Nuestro Equipo</h2>
+        <div class="equipo-container">
+            <div class="card">
+                <h3>Miguel Hidalgo</h3>
+                <p class="rol">Guionista</p>
+                <p>Santiago Mokarzel</p>
+            </div>
+            <div class="card">
+                <h3>Ignacio Allende</h3>
+                <p class="rol">Actor</p>
+                <p>Santiago Chavez</p>
+            </div>
+            <div class="card">
+                <h3>Juan Aldama</h3>
+                <p class="rol">Actor</p>
+                <p>Valentino Raygoza</p>
+            </div>
+            <div class="card">
+                <h3>Mensajero</h3>
+                <p class="rol">Actor</p>
+                <p>Roberto Espinoza</p>
+            </div>
+            <div class="card">
+                <h3>José María Morelos</h3>
+                <p class="rol">Actor</p>
+                <p>Alejo Canales</p>
+            </div>
+            <div class="card">
+                <h3>Extra</h3>
+                <p class="rol">Actriz</p>
+                <p>Rebeca Serrano</p>
+            </div>
+            <div class="card">
+                
+                <h3>Editora</h3>
+                <p class="rol">Responsable de la edición</p>
+                <p>Melissa Rojas</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©️ 2025 Producción "Grito de Libertad" - Historia 2A</p>
+    </footer>
+</body>
+
+</html>
